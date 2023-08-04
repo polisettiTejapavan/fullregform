@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Registration Form</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <form class="reg">
+    <fieldset>
+      <legend> Registration Form</legend>
+      <label for="fullname">FullName:</label>
+      <input type="text" id="fullname" name="fullname" required>
+       <label for="dateoofbirth">DateOfBirth</label>
+       <input type="date" id="DateOfBirth" name="dateoofbirth">
+
+      <label for="hallticket">Hallticket Number:</label>
+      <input type="text" id="hallticket" name="hallticket" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="aadhaar">Aadhaar Number:</label>
+      <input type="text" id="aadhaar" name="aadhaar" required>
+
+
+      <label for="caste">Caste:</label>
+      <input type="text" id="caste" name="caste" required>
+      
+
+  
+      <label for="gender">Gender:</label>
+      <select id="gender" name="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+
+      <label for="physically-challenged">Differently Abled :</label>
+      <select id="physically-challenged" name="physically-challenged">
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select>
+
+      <label for="address">Address:</label>
+      <textarea id="address" name="address" rows="4" required></textarea>
+      
+
+      <button type="submit">submit</button>
+    </fieldset>
+  </form>
+</body>
+</html>
